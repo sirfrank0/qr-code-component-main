@@ -10,20 +10,59 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    body{
+      background-color: hsl(220, 15%, 55%);
+    }
     
+    .qr-main{
+      width: 300px;
+      height: 410px;
+      background-color:  hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .qr-main img{
+      width: 250px;
+      height: 250px;
+      border-radius: 16px;
+    }
+
+    .p-1{
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+
+    }
+
+    .p-2{
+      font-size: 15px;
+      font-weight: 400;
+      font-family: 'Outfit', sans-serif;
+      color: hsl(220, 15%, 55%);
+      
+
+    }
+
+
   </style>
 </head>
+
+
+
 <body>
   <section class="qr-main">
     <div class="qr-code">
       <img src="./images/image-qr-code.png" alt="image-qr-code">
-    </div>
-
-    <div class="qr-text">
       <p class="p-1">Improve your front-end skills by bulding project</p>
       <p class="p-2">Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
     </div>
-
   </section>
  
   
